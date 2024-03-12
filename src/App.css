@@ -1,0 +1,144 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-size: 100% 100%; /* Largura x Altura */
+  background-position: center; /* Centralizar a imagem */
+  background-image: url('../imagem/fundo.png');/* Define a imagem de fundo */
+  background-size: cover; /* Cobrir toda a área do elemento */
+
+}
+
+
+#navMenu {
+  top: 150px;
+  left: 200px;
+  width: 140px;
+  height: 140px;
+  z-index: 100;
+  background: linear-gradient(90deg, #270ec9, #5091db, #490ec9);
+  -webkit-background: linear-gradient(90deg, #270ec9, #5091db, #490ec9);
+  background-size: 400% 400%;
+  -webkit-background-size: 400% 400%;
+  animation: gradient 5s infinite;
+  -webkit-animation: gradient 5s infinite;
+}
+
+#navMenu:hover, .nav:hover {
+  background:#5091db;
+}
+
+.diamond {
+  position: absolute;
+  width: 67.5px;
+  height: 67.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background: #490ec9;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 1px 4px 10px #101010;
+}
+
+.diamond:active {
+  background: #130566;
+  box-shadow: 0px 1px 2.5px #101010;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+
+.nav {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.nav1 {
+  top: 86px;
+  left: 287px;
+}
+
+.nav2 {
+  top: 136px;
+  left: 337px;
+}
+
+.nav3 {
+  top: 186px;
+  left: 387px;
+}
+
+.nav4 {
+  top: 236px;
+  left: 337px;
+}
+
+.nav5 {
+  top: 286px;
+  left: 287px;
+}
+
+.small {
+  top: 186px;
+  left: 236px;
+  z-index: 10;
+  background: #6f45d8;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.rotCorrect {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 14px;
+  margin-top: 8px;
+}
+
+#mainRotCorrect {
+  margin-left: 26px;
+  margin-top: 28px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  max-width: 90px;
+}
+
+i {
+  color: #EEEEEE;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  transform: rotate(-45deg);
+}
+
+.icon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon2 img {
+  width: 50px;
+  height: 50px;
+  transform: rotate(-45deg);
+  margin: 10px;
+}
+
