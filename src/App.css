@@ -1,7 +1,6 @@
-#root {
-  max-width: 1280px;
+* {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -10,17 +9,12 @@
   color: #888;
 }
 
-html, body, .container {
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  background-size: 100% 100%; /* Largura x Altura */
-  background-position: center; /* Centralizar a imagem */
-  background-image: url('../imagem/fundo.png');/* Define a imagem de fundo */
-  background-size: cover; /* Cobrir toda a área do elemento */
-
+  overflow-x: hidden;
 }
-
 
 #navMenu {
   top: 150px;
@@ -36,8 +30,9 @@ html, body, .container {
   -webkit-animation: gradient 5s infinite;
 }
 
-#navMenu:hover, .nav:hover {
-  background:#5091db;
+#navMenu:hover,
+.nav:hover {
+  background: #5091db;
 }
 
 .diamond {
@@ -141,4 +136,3 @@ i {
   transform: rotate(-45deg);
   margin: 10px;
 }
-
