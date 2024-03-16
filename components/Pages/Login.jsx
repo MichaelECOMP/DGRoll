@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Footer from "../Footer";
-import LoginMain from "../LoginMain";
 import NavMenu from "../NavMenu";
 
 const Login = () => {
@@ -25,7 +24,6 @@ const Login = () => {
   return (
     <div className="home">
       <NavMenu />
-      <LoginMain>
         <div className="container">
           <form onSubmit={handleSubmit}>
             <input
@@ -48,7 +46,6 @@ const Login = () => {
             </div>
           </form>
         </div>
-      </LoginMain>
       <Footer />
     </div>
   );
