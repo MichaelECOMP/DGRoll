@@ -13,6 +13,11 @@ const Footer = () => {
           Rhuan Lucas
           <img src="../imagem/instal.png" alt="instagram logo" />
         </a>
+
+         <a href="https://www.instagram.com/daviferrarez/" target="_blank" rel="noopener">
+          Davi Ferrarez
+          <img src="../imagem/instal.png" alt="instagram logo" />
+        </a>
       </div>
       <span>&copy; 2024</span>
     </footer>
