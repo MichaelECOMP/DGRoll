@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Footer from "../Footer";
 import NavMenu from "../NavMenu";
-import RegisterMain from "../RegisterMain";
 
 const Register = () => {
   // Estados para armazenar os dados do formulário
@@ -36,7 +35,6 @@ const Register = () => {
   return (
     <div className="home">
       <NavMenu />
-      <RegisterMain>
         <div className="container">
           <form onSubmit={handleSubmit}>
             <div className="field">
@@ -100,7 +98,6 @@ const Register = () => {
             </div>
           </form>
         </div>
-      </RegisterMain>
       <Footer />
     </div>
   );
