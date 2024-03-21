@@ -22,8 +22,6 @@ const Login = () => {
   };
 
   return (
-    <div className="home">
-      <NavMenu />
         <div className="container">
           <form onSubmit={handleSubmit}>
             <input
@@ -46,8 +44,6 @@ const Login = () => {
             </div>
           </form>
         </div>
-      <Footer />
-    </div>
   );
 };
 

@@ -33,73 +33,69 @@ const Register = () => {
   };
 
   return (
-    <div className="home">
-      <NavMenu />
-        <div className="container">
-          <form onSubmit={handleSubmit}>
-            <div className="field">
-              <label htmlFor="name">Nome:</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="field">
-              <label htmlFor="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="field">
-              <label htmlFor="username">Nome de Usuário:</label>
-              <input
-                type="text"
-                id="username"
-                name="username"
-                value={formData.username}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="field">
-              <label htmlFor="password">Senha:</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                value={formData.password}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="field">
-              <label htmlFor="files">Upload de Arquivo (PDF):</label>
-              <input
-                type="file"
-                id="files"
-                name="files"
-                accept=".pdf"
-                multiple
-                onChange={handleFileChange}
-              />
-            </div>
-            <div className="buttons">
-              <button type="submit">Registrar</button>
-              <button type="reset">Limpar</button>
-            </div>
-          </form>
-        </div>
-      <Footer />
-    </div>
+      <div className="container">
+        <form onSubmit={handleSubmit}>
+          <div className="field">
+            <label htmlFor="name">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="field">
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="field">
+            <label htmlFor="username">Nome de Usuário:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              value={formData.username}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="field">
+            <label htmlFor="password">Senha:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={formData.password}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="field">
+            <label htmlFor="files">Upload de Arquivo (PDF):</label>
+            <input
+              type="file"
+              id="files"
+              name="files"
+              accept=".pdf"
+              multiple
+              onChange={handleFileChange}
+            />
+          </div>
+          <div className="buttons">
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
   );
 };
 
