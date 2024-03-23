@@ -28,14 +28,13 @@
   width: 100vw;
   min-height: 84vh;
   position: relative;
+}
+
+.home {
   background-size: 100% 100%;
-  /* Largura x Altura */
   background-position: center;
-  /* Centralizar a imagem */
   background-image: url('../imagem/fundo.png');
-  /* Define a imagem de fundo */
   background-size: cover;
-  /* Cobrir toda a área do elemento */
 }
 
 .home::after {
@@ -55,24 +54,16 @@
 
 h1 {
   padding-bottom: 30px;
+  font-size: 60px;
+  line-height: 1.1;
 }
 
 p {
   font-size: 18px;
-  /* Tamanho da fonte */
-  line-height: 1.6;
-  /* Altura da linha */
+  line-height: 1.4;
   font-weight: bold;
   margin-bottom: 20px;
-  /* Espaçamento inferior entre os parágrafos */
-  color: #000000;
-  /* Cor do texto */
-  text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
-  /* Adiciona um contorno branco à fonte */
+  color: #fff;
 }
 
 footer {
@@ -86,9 +77,6 @@ footer {
   color: white;
   padding: 10px 0;
   width: 100vw;
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
 }
 
 footer span {
@@ -135,4 +123,3 @@ footer img {
   width: 250px;
   height: 250px;
 }
-

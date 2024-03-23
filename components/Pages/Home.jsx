@@ -4,11 +4,7 @@ import NavMenu from '../NavMenu'
 
 const Home = () => {
   return (
-    <div className="home">
-      <NavMenu />
-      <Main />
-      <Footer />
-    </div>
+    <Main />
   )
 }
 export default Home;
